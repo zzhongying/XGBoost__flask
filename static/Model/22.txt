@@ -1,0 +1,1504 @@
+booster[0]:
+0:[API_Network_java.net.URL_openConnection<2] yes=1,no=2,missing=1
+	1:[Memory_PssTotal<34653] yes=3,no=4,missing=3
+		3:[Memory_ParcelMemory<8] yes=7,no=8,missing=7
+			7:leaf=1.9770925
+			8:leaf=-0.172108859
+		4:[Battery_service<1] yes=9,no=10,missing=9
+			9:[Memory_HeapSize<13127] yes=15,no=16,missing=15
+				15:[Memory_SharedClean<79308] yes=21,no=22,missing=21
+					21:leaf=-0.196901903
+					22:leaf=0.0379310213
+				16:[Memory_HeapFree<4127] yes=23,no=24,missing=23
+					23:leaf=1.56129026
+					24:leaf=0.0379310213
+			10:[Memory_SharedDirty<10216] yes=17,no=18,missing=17
+				17:leaf=0.398338854
+				18:[API_Binder_android.app.ActivityThread_handleReceiver<3] yes=25,no=26,missing=25
+					25:leaf=-0.260367632
+					26:[Memory_PssTotal<73446] yes=27,no=28,missing=27
+						27:leaf=0.26973179
+						28:leaf=-0.149307489
+	2:[Memory_OpenSSLSockets<2] yes=5,no=6,missing=5
+		5:[API_DexClassLoader_dalvik.system.DexClassLoader_$init<2] yes=11,no=12,missing=11
+			11:[Memory_SharedClean<109828] yes=19,no=20,missing=19
+				19:leaf=2.4453876
+				20:leaf=0.892125964
+			12:leaf=0.501532555
+		6:[Network_TotalReceivedPackets<686] yes=13,no=14,missing=13
+			13:leaf=-0.124252498
+			14:leaf=1.3074733
+booster[1]:
+0:[API_DexClassLoader_dalvik.system.DexFile_loadDex<2] yes=1,no=2,missing=1
+	1:[Memory_AppContexts<2] yes=3,no=4,missing=3
+		3:[Memory_PssClean<2596] yes=7,no=8,missing=7
+			7:leaf=1.40332222
+			8:leaf=-0.101149432
+		4:leaf=-0.268248796
+	2:[Memory_Views<11] yes=5,no=6,missing=5
+		5:leaf=2.36917591
+		6:leaf=-0.184431151
+booster[2]:
+0:[API_DeviceData_android.content.ContentResolver_registerContentObserver<5] yes=1,no=2,missing=1
+	1:[Memory_PssTotal<108507] yes=3,no=4,missing=3
+		3:[Logcat_verbose<9576] yes=7,no=8,missing=7
+			7:leaf=-0.267413497
+			8:leaf=0.0379310213
+		4:leaf=0.0379310213
+	2:[Memory_SharedDirty<11106] yes=5,no=6,missing=5
+		5:[Network_TotalReceivedBytes<956] yes=9,no=10,missing=9
+			9:leaf=0.26973179
+			10:leaf=-0.23591733
+		6:[Memory_Assets<3] yes=11,no=12,missing=11
+			11:leaf=2.35749435
+			12:leaf=0.599335551
+booster[3]:
+0:[Logcat_verbose<3157] yes=1,no=2,missing=1
+	1:[Logcat_error<4153] yes=3,no=4,missing=3
+		3:[Memory_ParcelMemory<21] yes=7,no=8,missing=7
+			7:[Logcat_error<111] yes=15,no=16,missing=15
+				15:[Memory_PssClean<4684] yes=25,no=26,missing=25
+					25:leaf=0.0379310213
+					26:leaf=-0.141935498
+				16:[Memory_Views<225] yes=27,no=28,missing=27
+					27:leaf=-0.264250189
+					28:[Memory_PrivateDirty<54616] yes=31,no=32,missing=31
+						31:leaf=0.0379310213
+						32:leaf=-0.167220905
+			8:[Memory_PssClean<9746] yes=17,no=18,missing=17
+				17:leaf=0.26973179
+				18:leaf=-0.124252498
+		4:[Logcat_debug<615] yes=9,no=10,missing=9
+			9:[API_DexClassLoader_dalvik.system.DexFile_loadDex<5] yes=19,no=20,missing=19
+				19:leaf=0.965134084
+				20:leaf=-0.113523141
+			10:leaf=-0.213765189
+	2:[Logcat_info<2509] yes=5,no=6,missing=5
+		5:[Memory_HeapAlloc<5712] yes=11,no=12,missing=11
+			11:leaf=0.256955355
+			12:[Memory_PrivateDirty<68110] yes=21,no=22,missing=21
+				21:leaf=-0.243942514
+				22:leaf=0.0379310213
+		6:[Logcat_debug<209] yes=13,no=14,missing=13
+			13:leaf=-0.149307489
+			14:[Logcat_verbose<4751] yes=23,no=24,missing=23
+				23:[Logcat_debug<1881] yes=29,no=30,missing=29
+					29:leaf=1.02903223
+					30:leaf=0.0379310213
+				24:leaf=-0
+booster[4]:
+0:[Memory_PssClean<9772] yes=1,no=2,missing=1
+	1:[Memory_AppContexts<8] yes=3,no=4,missing=3
+		3:[Memory_SharedDirty<10526] yes=7,no=8,missing=7
+			7:[API_IPC_android.content.ContextWrapper_registerReceiver<3] yes=15,no=16,missing=15
+				15:leaf=-0.180665284
+				16:leaf=0.230960846
+			8:leaf=-0.2678442
+		4:[API_Network_java.net.URL_openConnection<4] yes=9,no=10,missing=9
+			9:leaf=1.02903223
+			10:leaf=-0.124252498
+	2:[API_DeviceInfo_android.telephony.TelephonyManager_getDeviceId<14] yes=5,no=6,missing=5
+		5:[Memory_SharedDirty<10952] yes=11,no=12,missing=11
+			11:[API_Network_java.net.URL_openConnection<32] yes=17,no=18,missing=17
+				17:leaf=1.97487521
+				18:leaf=0.501532555
+			12:leaf=0.0379310213
+		6:[Memory_PrivateDirty<37288] yes=13,no=14,missing=13
+			13:leaf=0.0379310213
+			14:leaf=-0.218352064
+booster[5]:
+0:[Memory_HeapSize<7997] yes=1,no=2,missing=1
+	1:[Logcat_verbose<3790] yes=3,no=4,missing=3
+		3:leaf=-0.191127554
+		4:[Memory_PssTotal<33632] yes=7,no=8,missing=7
+			7:leaf=0.501532555
+			8:leaf=0.0379310213
+	2:[API_DexClassLoader_dalvik.system.BaseDexClassLoader_findResource<25] yes=5,no=6,missing=5
+		5:leaf=-0.269314647
+		6:leaf=0.230960846
+booster[6]:
+0:[API_WebView_android.webkit.WebView_loadUrl<29] yes=1,no=2,missing=1
+	1:[API_Database_android.database.sqlite.SQLiteDatabase_compileStatement<17] yes=3,no=4,missing=3
+		3:leaf=-0.269480616
+		4:[Memory_PssTotal<77133] yes=5,no=6,missing=5
+			5:leaf=0.26973179
+			6:leaf=-0.149307489
+	2:leaf=1.4595567
+booster[7]:
+0:[API_Base64_android.util.Base64_decode<3] yes=1,no=2,missing=1
+	1:leaf=-0.268966913
+	2:[Memory_PssTotal<45427] yes=3,no=4,missing=3
+		3:leaf=2.02324486
+		4:leaf=-0.225732908
+booster[8]:
+0:[Memory_ParcelMemory<4] yes=1,no=2,missing=1
+	1:[Memory_HeapAlloc<10233] yes=3,no=4,missing=3
+		3:[Logcat_debug<125] yes=7,no=8,missing=7
+			7:leaf=0.0379310213
+			8:leaf=-0.228746191
+		4:leaf=0.674193501
+	2:[API_Database_android.database.sqlite.SQLiteDatabase_insert<1] yes=5,no=6,missing=5
+		5:leaf=-0.268934637
+		6:leaf=0.0379310213
+booster[9]:
+0:[API_IPC_android.content.ContextWrapper_sendBroadcast<16] yes=1,no=2,missing=1
+	1:[Memory_PssTotal<31358] yes=3,no=4,missing=3
+		3:[Memory_PssTotal<30506] yes=5,no=6,missing=5
+			5:leaf=-0.141935498
+			6:leaf=0.0379310213
+		4:leaf=-0.269560009
+	2:leaf=0.73333329
+booster[10]:
+0:[Network_TotalReceivedPackets<594] yes=1,no=2,missing=1
+	1:leaf=-0.269611686
+	2:[Memory_PssTotal<103271] yes=3,no=4,missing=3
+		3:leaf=0.26973179
+		4:leaf=-0.161845401
+booster[11]:
+0:[API_Database_android.database.sqlite.SQLiteDatabase_rawQuery<4] yes=1,no=2,missing=1
+	1:[API_IPC_android.content.ContextWrapper_registerReceiver<2] yes=3,no=4,missing=3
+		3:[API_DexClassLoader_dalvik.system.DexFile_loadClass<14] yes=7,no=8,missing=7
+			7:[API_DeviceInfo_android.telephony.TelephonyManager_getDeviceId<5] yes=15,no=16,missing=15
+				15:[Memory_ParcelCount<8] yes=23,no=24,missing=23
+					23:leaf=-0
+					24:[Logcat_total<16561] yes=29,no=30,missing=29
+						29:leaf=0.446719706
+						30:leaf=0.0526028126
+				16:leaf=-0.117277078
+			8:leaf=-0.208456054
+		4:[API_FileIO_android.content.ContextWrapper_openFileInput<1] yes=9,no=10,missing=9
+			9:[Memory_Activities<1] yes=17,no=18,missing=17
+				17:leaf=0.47157684
+				18:[Memory_SharedClean<98238] yes=25,no=26,missing=25
+					25:leaf=-0.277352184
+					26:[Memory_SharedClean<102582] yes=31,no=32,missing=31
+						31:leaf=0.204270735
+						32:leaf=-0.180979908
+			10:[API_DexClassLoader_dalvik.system.BaseDexClassLoader_findLibrary<11] yes=19,no=20,missing=19
+				19:leaf=0.432607561
+				20:leaf=-0.131441668
+	2:[API_Crypto_javax.crypto.Cipher_doFinal<3] yes=5,no=6,missing=5
+		5:[Memory_ParcelCount<38] yes=11,no=12,missing=11
+			11:[Logcat_error<3428] yes=21,no=22,missing=21
+				21:leaf=0.412547767
+				22:[API_Crypto-Hash_java.security.MessageDigest_digest<48] yes=27,no=28,missing=27
+					27:leaf=0.20827134
+					28:leaf=-0.0365277044
+			12:leaf=-0.0498876609
+		6:[API_Crypto_javax.crypto.Cipher_doFinal<344] yes=13,no=14,missing=13
+			13:leaf=0.587867081
+			14:leaf=0.12697576
+booster[12]:
+0:[API_IPC_android.content.ContextWrapper_registerReceiver<1] yes=1,no=2,missing=1
+	1:[Memory_Views<5] yes=3,no=4,missing=3
+		3:[Logcat_verbose<3783] yes=5,no=6,missing=5
+			5:[Memory_PrivateDirty<23508] yes=9,no=10,missing=9
+				9:leaf=0.0552846082
+				10:leaf=0.433035731
+			6:[Logcat_warning<664] yes=11,no=12,missing=11
+				11:leaf=0.355390579
+				12:[Memory_HeapFree<2373] yes=13,no=14,missing=13
+					13:leaf=0.252515793
+					14:[Memory_PssClean<2250] yes=15,no=16,missing=15
+						15:leaf=0.0243890584
+						16:leaf=-0.331377566
+		4:[Memory_HeapAlloc<10135] yes=7,no=8,missing=7
+			7:leaf=-0
+			8:leaf=-0.173005328
+	2:leaf=-0.251144648
+booster[13]:
+0:[API_DeviceData_android.content.ContentResolver_registerContentObserver<5] yes=1,no=2,missing=1
+	1:[Memory_HeapAlloc<33937] yes=3,no=4,missing=3
+		3:[Logcat_verbose<9069] yes=7,no=8,missing=7
+			7:leaf=-0.250014275
+			8:leaf=0.0463672616
+		4:leaf=0.0636396706
+	2:[Network_TotalReceivedBytes<792] yes=5,no=6,missing=5
+		5:[Memory_HeapSize<23824] yes=9,no=10,missing=9
+			9:[Logcat_debug<657] yes=13,no=14,missing=13
+				13:[Memory_PssTotal<49208] yes=15,no=16,missing=15
+					15:leaf=0.33252418
+					16:leaf=-0.0445647575
+				14:leaf=0.453542978
+			10:leaf=-0
+		6:[Logcat_warning<3287] yes=11,no=12,missing=11
+			11:leaf=-0.238403752
+			12:leaf=0.0503037199
+booster[14]:
+0:[Logcat_debug<2322] yes=1,no=2,missing=1
+	1:[API_DexClassLoader_dalvik.system.BaseDexClassLoader_findLibrary<25] yes=3,no=4,missing=3
+		3:[Memory_HeapFree<3963] yes=7,no=8,missing=7
+			7:[Memory_HeapFree<3712] yes=13,no=14,missing=13
+				13:[Memory_HeapAlloc<9998] yes=17,no=18,missing=17
+					17:[Memory_SharedDirty<11226] yes=19,no=20,missing=19
+						19:leaf=-0.06401328
+						20:leaf=0.413180143
+					18:leaf=-0.210048035
+				14:leaf=0.657569528
+			8:[Memory_SharedDirty<11420] yes=15,no=16,missing=15
+				15:leaf=-0.23614499
+				16:leaf=0.0509562828
+		4:[API_Crypto_javax.crypto.Cipher_doFinal<58] yes=9,no=10,missing=9
+			9:leaf=0.692139506
+			10:leaf=0.039580401
+	2:[Logcat_warning<408] yes=5,no=6,missing=5
+		5:[Memory_HeapAlloc<20155] yes=11,no=12,missing=11
+			11:leaf=-0.190687865
+			12:leaf=0.53391397
+		6:leaf=-0.241542205
+booster[15]:
+0:[Memory_HeapSize<26360] yes=1,no=2,missing=1
+	1:[API_DeviceData_android.content.ContentResolver_query<8] yes=3,no=4,missing=3
+		3:[Memory_HeapSize<6232] yes=7,no=8,missing=7
+			7:leaf=0.301074088
+			8:[API_Crypto-Hash_java.security.MessageDigest_update<11322] yes=13,no=14,missing=13
+				13:leaf=-0.259401321
+				14:leaf=0.0554303452
+		4:[API_IPC_android.content.ContextWrapper_registerReceiver<49] yes=9,no=10,missing=9
+			9:leaf=0.410239428
+			10:leaf=0.0118536586
+	2:[API_DeviceInfo_android.telephony.TelephonyManager_getDeviceId<14] yes=5,no=6,missing=5
+		5:[Battery_service<1] yes=11,no=12,missing=11
+			11:leaf=-0.120952003
+			12:[Network_TotalReceivedBytes<1504502] yes=15,no=16,missing=15
+				15:leaf=0.672468066
+				16:leaf=0.116993837
+		6:leaf=-0.206996217
+booster[16]:
+0:[Memory_PssTotal<31632] yes=1,no=2,missing=1
+	1:[Memory_PrivateDirty<23660] yes=3,no=4,missing=3
+		3:leaf=-0.120429941
+		4:leaf=0.344489783
+	2:[API_DexClassLoader_dalvik.system.BaseDexClassLoader_findResource<25] yes=5,no=6,missing=5
+		5:[API_DeviceInfo_android.net.wifi.WifiInfo_getIpAddress<3] yes=7,no=8,missing=7
+			7:leaf=-0.253710091
+			8:leaf=0.0159827489
+		6:leaf=0.243955895
+booster[17]:
+0:[API_FileIO_android.content.ContextWrapper_deleteFile<5] yes=1,no=2,missing=1
+	1:[API_Database_android.database.sqlite.SQLiteDatabase_updateWithOnConflict<1] yes=3,no=4,missing=3
+		3:leaf=-0.254311502
+		4:leaf=0.00651732506
+	2:[Logcat_verbose<2923] yes=5,no=6,missing=5
+		5:leaf=0.601812601
+		6:leaf=-0.144707963
+booster[18]:
+0:[API_Base64_android.util.Base64_decode<3] yes=1,no=2,missing=1
+	1:leaf=-0.252916783
+	2:[Memory_ParcelMemory<5] yes=3,no=4,missing=3
+		3:[API_DeviceData_android.os.SystemProperties_get<31] yes=5,no=6,missing=5
+			5:leaf=0.0636257455
+			6:leaf=0.447559088
+		4:leaf=-0.210536793
+booster[19]:
+0:[Memory_ParcelMemory<4] yes=1,no=2,missing=1
+	1:[Memory_PrivateDirty<25920] yes=3,no=4,missing=3
+		3:leaf=0.699060619
+		4:[Logcat_debug<126] yes=7,no=8,missing=7
+			7:leaf=0.0521605015
+			8:leaf=-0.205768034
+	2:[API_DeviceData_android.content.ContentResolver_query<74] yes=5,no=6,missing=5
+		5:leaf=-0.253221095
+		6:leaf=0.0565048084
+booster[20]:
+0:[API_DeviceInfo_android.telephony.TelephonyManager_getLine1Number<32] yes=1,no=2,missing=1
+	1:[Memory_ParcelCount<8] yes=3,no=4,missing=3
+		3:leaf=0.0288417488
+		4:leaf=-0.255242079
+	2:leaf=0.647433639
+booster[21]:
+0:[API_DeviceInfo_android.telephony.TelephonyManager_getNetworkOperator<7] yes=1,no=2,missing=1
+	1:leaf=-0.254365265
+	2:[Memory_PssTotal<81258] yes=3,no=4,missing=3
+		3:leaf=0.308838338
+		4:leaf=-0.129361778
+booster[22]:
+0:[API_Database_android.database.sqlite.SQLiteDatabase_rawQuery<4] yes=1,no=2,missing=1
+	1:[API_DeviceData_android.content.ContentResolver_registerContentObserver<4] yes=3,no=4,missing=3
+		3:[API__sessions<5] yes=7,no=8,missing=7
+			7:[API_Crypto-Hash_java.security.MessageDigest_digest<201] yes=13,no=14,missing=13
+				13:[Logcat_error<2709] yes=23,no=24,missing=23
+					23:[Memory_LocalBinders<21] yes=31,no=32,missing=31
+						31:leaf=0.450359106
+						32:leaf=0.0189865809
+					24:[Memory_HeapSize<8102] yes=33,no=34,missing=33
+						33:leaf=0.240652025
+						34:leaf=-0
+				14:leaf=-0.0915300101
+			8:[Memory_Views<7] yes=15,no=16,missing=15
+				15:[Logcat_info<5659] yes=25,no=26,missing=25
+					25:[Logcat_total<18980] yes=35,no=36,missing=35
+						35:leaf=-0.246462643
+						36:leaf=-0
+					26:leaf=0.0288677737
+				16:[API_IPC_android.content.ContextWrapper_registerReceiver<6] yes=27,no=28,missing=27
+					27:[Memory_SharedClean<81064] yes=37,no=38,missing=37
+						37:leaf=-0.0143408617
+						38:leaf=0.361014545
+					28:leaf=-0.223503903
+		4:[API_Network_java.net.URL_openConnection<50] yes=9,no=10,missing=9
+			9:[Logcat_info<4733] yes=17,no=18,missing=17
+				17:leaf=-0.259552449
+				18:leaf=0.0240890644
+			10:leaf=0.277645588
+	2:[API_Database_android.database.sqlite.SQLiteDatabase_insert<1] yes=5,no=6,missing=5
+		5:[Logcat_error<4075] yes=11,no=12,missing=11
+			11:[Logcat_warning<126] yes=19,no=20,missing=19
+				19:[Logcat_warning<115] yes=29,no=30,missing=29
+					29:leaf=0.294903219
+					30:leaf=-0.088202782
+				20:leaf=0.375640094
+			12:[API_DeviceData_android.content.ContentResolver_registerContentObserver<1] yes=21,no=22,missing=21
+				21:leaf=-0.00158825202
+				22:leaf=0.177647695
+		6:leaf=-0
+booster[23]:
+0:[API_Binder_android.app.ContextImpl_registerReceiver<1] yes=1,no=2,missing=1
+	1:[Memory_Views<5] yes=3,no=4,missing=3
+		3:[Logcat_verbose<3783] yes=5,no=6,missing=5
+			5:[Memory_PrivateDirty<23508] yes=9,no=10,missing=9
+				9:leaf=0.0360187553
+				10:leaf=0.336382449
+			6:[Logcat_warning<664] yes=11,no=12,missing=11
+				11:leaf=0.266273111
+				12:[Memory_HeapFree<2373] yes=13,no=14,missing=13
+					13:leaf=0.192004114
+					14:[Memory_PssClean<2250] yes=15,no=16,missing=15
+						15:leaf=0.00729420781
+						16:leaf=-0.288253814
+		4:[Logcat_warning<3386] yes=7,no=8,missing=7
+			7:leaf=-0.149434745
+			8:leaf=-0
+	2:leaf=-0.242503852
+booster[24]:
+0:[API_DeviceData_android.content.ContentResolver_registerContentObserver<5] yes=1,no=2,missing=1
+	1:[Memory_Views<350] yes=3,no=4,missing=3
+		3:[Memory_SharedClean<71010] yes=7,no=8,missing=7
+			7:leaf=-0
+			8:leaf=-0.241665438
+		4:leaf=0.0673661977
+	2:[Network_TotalReceivedPackets<22] yes=5,no=6,missing=5
+		5:[Memory_SharedClean<93604] yes=9,no=10,missing=9
+			9:[Logcat_error<5506] yes=11,no=12,missing=11
+				11:[Process_total<195] yes=13,no=14,missing=13
+					13:leaf=0.353040963
+					14:leaf=0.0297340211
+				12:leaf=-0
+			10:leaf=-0.104479149
+		6:leaf=-0.198575273
+booster[25]:
+0:[API_IPC_android.content.ContextWrapper_startService<14] yes=1,no=2,missing=1
+	1:[API_Command_java.lang.Runtime_exec<41] yes=3,no=4,missing=3
+		3:[Logcat_error<203] yes=7,no=8,missing=7
+			7:[API_DexClassLoader_dalvik.system.DexFile_loadDex<7] yes=15,no=16,missing=15
+				15:leaf=-0.144638419
+				16:leaf=0.359655887
+			8:[Memory_ParcelCount<8] yes=17,no=18,missing=17
+				17:leaf=0.0415436551
+				18:leaf=-0.242757931
+		4:[Memory_SharedDirty<10646] yes=9,no=10,missing=9
+			9:leaf=0.486187488
+			10:leaf=-0.15709208
+	2:[Logcat_debug<2322] yes=5,no=6,missing=5
+		5:[Memory_HeapSize<14982] yes=11,no=12,missing=11
+			11:[Memory_PssTotal<36459] yes=19,no=20,missing=19
+				19:[Logcat_info<2532] yes=23,no=24,missing=23
+					23:leaf=-0.0914978459
+					24:leaf=0.370928556
+				20:leaf=-0.161498234
+			12:[API_Crypto-Hash_java.security.MessageDigest_update<155] yes=21,no=22,missing=21
+				21:[API_IPC_android.content.ContextWrapper_startService<21] yes=25,no=26,missing=25
+					25:[Logcat_debug<416] yes=27,no=28,missing=27
+						27:leaf=0.24426201
+						28:leaf=-0.0986877903
+					26:leaf=0.57013911
+				22:leaf=-0.0914150327
+		6:[Memory_Views<64] yes=13,no=14,missing=13
+			13:leaf=-0.199402973
+			14:leaf=0.0551864468
+booster[26]:
+0:[Memory_SharedDirty<10882] yes=1,no=2,missing=1
+	1:[API_DeviceInfo_android.telephony.TelephonyManager_getSubscriberId<1] yes=3,no=4,missing=3
+		3:[API_Binder_android.app.ActivityThread_handleReceiver<6] yes=7,no=8,missing=7
+			7:[API_IPC_android.content.ContextWrapper_startService<2] yes=11,no=12,missing=11
+				11:leaf=-0.125560507
+				12:[Logcat_verbose<4467] yes=13,no=14,missing=13
+					13:[Logcat_info<5990] yes=15,no=16,missing=15
+						15:leaf=0.475688517
+						16:leaf=0.0358844399
+					14:[API_Database_android.database.sqlite.SQLiteDatabase_rawQuery<1] yes=17,no=18,missing=17
+						17:leaf=-0.0330360569
+						18:leaf=0.223247766
+			8:leaf=-0.138471201
+		4:[API_Database_android.database.sqlite.SQLiteDatabase_getPath<119] yes=9,no=10,missing=9
+			9:leaf=-0.220695108
+			10:leaf=0.044605609
+	2:[API_IPC_android.content.ContextWrapper_registerReceiver<42] yes=5,no=6,missing=5
+		5:leaf=-0.24024865
+		6:leaf=0.0534063764
+booster[27]:
+0:[Memory_HeapSize<7997] yes=1,no=2,missing=1
+	1:[Memory_HeapAlloc<4788] yes=3,no=4,missing=3
+		3:leaf=-0.138994858
+		4:[Logcat_info<429] yes=7,no=8,missing=7
+			7:leaf=0.528221309
+			8:leaf=-0
+	2:[API_DexClassLoader_dalvik.system.BaseDexClassLoader_findResource<25] yes=5,no=6,missing=5
+		5:leaf=-0.246348888
+		6:leaf=0.190972611
+booster[28]:
+0:[API_FileIO_android.content.ContextWrapper_deleteFile<5] yes=1,no=2,missing=1
+	1:[API_Database_android.database.sqlite.SQLiteDatabase_insertWithOnConflict<1] yes=3,no=4,missing=3
+		3:leaf=-0.246782392
+		4:leaf=0.00165553193
+	2:[Logcat_verbose<2923] yes=5,no=6,missing=5
+		5:[Memory_SharedDirty<10762] yes=7,no=8,missing=7
+			7:leaf=0.0847577453
+			8:leaf=0.424326301
+		6:leaf=-0.118697219
+booster[29]:
+0:[API_Base64_android.util.Base64_decode<3] yes=1,no=2,missing=1
+	1:leaf=-0.245048344
+	2:[Memory_HeapFree<3108] yes=3,no=4,missing=3
+		3:leaf=0.321828306
+		4:[Logcat_warning<2896] yes=5,no=6,missing=5
+			5:leaf=-0.220338419
+			6:leaf=-0
+booster[30]:
+0:[Memory_ParcelMemory<4] yes=1,no=2,missing=1
+	1:[Memory_PrivateDirty<25920] yes=3,no=4,missing=3
+		3:leaf=0.415195525
+		4:[Logcat_total<15803] yes=7,no=8,missing=7
+			7:leaf=-0.185234949
+			8:leaf=0.0653728917
+	2:[Logcat_total<7034] yes=5,no=6,missing=5
+		5:leaf=0.0655185506
+		6:leaf=-0.245378673
+booster[31]:
+0:[API_DeviceInfo_android.telephony.TelephonyManager_getLine1Number<32] yes=1,no=2,missing=1
+	1:[Memory_ParcelCount<8] yes=3,no=4,missing=3
+		3:leaf=0.0356590413
+		4:leaf=-0.247517198
+	2:leaf=0.371878773
+booster[32]:
+0:[API_DeviceInfo_android.telephony.TelephonyManager_getNetworkOperatorName<13] yes=1,no=2,missing=1
+	1:leaf=-0.24716419
+	2:[Memory_SharedDirty<10710] yes=3,no=4,missing=3
+		3:leaf=-0.112131126
+		4:leaf=0.300122947
+booster[33]:
+0:[API_Base64_android.util.Base64_encode<3] yes=1,no=2,missing=1
+	1:[Memory_HeapFree<4179] yes=3,no=4,missing=3
+		3:[API_IPC_android.content.ContextWrapper_startService<21] yes=7,no=8,missing=7
+			7:[Logcat_warning<8068] yes=15,no=16,missing=15
+				15:[Memory_HeapFree<1587] yes=21,no=22,missing=21
+					21:[Memory_SharedDirty<9974] yes=29,no=30,missing=29
+						29:leaf=0.216741979
+						30:leaf=-0.176012948
+					22:[Memory_ProxyBinders<23] yes=31,no=32,missing=31
+						31:leaf=-0
+						32:leaf=0.258677572
+				16:leaf=-0.118007652
+			8:[Memory_HeapFree<3594] yes=17,no=18,missing=17
+				17:[API_DexClassLoader_dalvik.system.DexFile_loadDex<4] yes=23,no=24,missing=23
+					23:leaf=-0.234977946
+					24:leaf=-0
+				18:[Logcat_debug<2240] yes=25,no=26,missing=25
+					25:leaf=-0.0252969582
+					26:leaf=0.248296648
+		4:[Memory_PrivateDirty<75552] yes=9,no=10,missing=9
+			9:[Logcat_debug<119] yes=19,no=20,missing=19
+				19:leaf=-0
+				20:[Memory_PssClean<2248] yes=27,no=28,missing=27
+					27:leaf=-0
+					28:leaf=-0.252095759
+			10:leaf=0.230066538
+	2:[Memory_HeapFree<8927] yes=5,no=6,missing=5
+		5:[Logcat_info<4909] yes=11,no=12,missing=11
+			11:leaf=0.302878797
+			12:leaf=0.00779737392
+		6:[API_FileIO_android.content.ContextWrapper_openFileInput<2] yes=13,no=14,missing=13
+			13:leaf=-0.0859551355
+			14:leaf=0.239895746
+booster[34]:
+0:[API_IPC_android.content.ContextWrapper_registerReceiver<1] yes=1,no=2,missing=1
+	1:[Memory_HeapSize<14982] yes=3,no=4,missing=3
+		3:[Logcat_verbose<3783] yes=5,no=6,missing=5
+			5:[Logcat_warning<114] yes=7,no=8,missing=7
+				7:leaf=0.00861976296
+				8:leaf=0.276638389
+			6:[Memory_SharedClean<78682] yes=9,no=10,missing=9
+				9:[Logcat_verbose<5958] yes=11,no=12,missing=11
+					11:leaf=-0.145792842
+					12:leaf=0.00264383061
+				10:[Memory_ParcelMemory<4] yes=13,no=14,missing=13
+					13:[Memory_SharedDirty<11694] yes=15,no=16,missing=15
+						15:leaf=0.167685717
+						16:leaf=-0.136234611
+					14:leaf=0.257745087
+		4:leaf=-0.1310184
+	2:leaf=-0.233040035
+booster[35]:
+0:[API_DeviceData_android.content.ContentResolver_registerContentObserver<5] yes=1,no=2,missing=1
+	1:[Memory_ParcelMemory<12] yes=3,no=4,missing=3
+		3:leaf=-0.229962975
+		4:[Memory_PrivateClean<7628] yes=7,no=8,missing=7
+			7:leaf=0.312815785
+			8:leaf=-0.149049684
+	2:[API_FileIO_libcore.io.IoBridge_open<2] yes=5,no=6,missing=5
+		5:[API_Database_android.database.sqlite.SQLiteDatabase_getPath<4] yes=9,no=10,missing=9
+			9:[API_DeviceData_android.os.SystemProperties_get<23] yes=11,no=12,missing=11
+				11:leaf=0.303231239
+				12:[API__sessions<5] yes=13,no=14,missing=13
+					13:leaf=-0.0941865668
+					14:[Memory_SharedDirty<11390] yes=15,no=16,missing=15
+						15:leaf=-0
+						16:leaf=0.216077298
+			10:leaf=-0.126357406
+		6:leaf=-0.181577712
+booster[36]:
+0:[Logcat_debug<2322] yes=1,no=2,missing=1
+	1:[Logcat_error<141] yes=3,no=4,missing=3
+		3:[Logcat_verbose<3756] yes=7,no=8,missing=7
+			7:[Memory_PrivateClean<4922] yes=13,no=14,missing=13
+				13:leaf=0.21990408
+				14:leaf=-0.0908190832
+			8:leaf=0.447546005
+		4:[API_DeviceData_android.os.SystemProperties_get<23] yes=9,no=10,missing=9
+			9:[Memory_PssClean<9180] yes=15,no=16,missing=15
+				15:leaf=-0.216439068
+				16:leaf=0.0804372057
+			10:[Logcat_error<5793] yes=17,no=18,missing=17
+				17:[Logcat_warning<113] yes=19,no=20,missing=19
+					19:leaf=0.221465051
+					20:[Memory_ParcelMemory<14] yes=21,no=22,missing=21
+						21:leaf=-0.153057754
+						22:leaf=0.14437224
+				18:leaf=0.386626929
+	2:[Logcat_warning<408] yes=5,no=6,missing=5
+		5:[Memory_ParcelMemory<15] yes=11,no=12,missing=11
+			11:leaf=-0.151552305
+			12:leaf=0.37023887
+		6:leaf=-0.218488425
+booster[37]:
+0:[API_DexClassLoader_dalvik.system.BaseDexClassLoader_findLibrary<1] yes=1,no=2,missing=1
+	1:[Memory_HeapSize<27637] yes=3,no=4,missing=3
+		3:[Memory_HeapFree<1762] yes=7,no=8,missing=7
+			7:leaf=0.0455572084
+			8:leaf=-0.236551449
+		4:[Memory_PrivateClean<6418] yes=9,no=10,missing=9
+			9:leaf=0.24316062
+			10:leaf=-0.0902374461
+	2:[API_Binder_android.app.ActivityThread_handleReceiver<6] yes=5,no=6,missing=5
+		5:[API_IPC_android.content.ContextWrapper_startService<2] yes=11,no=12,missing=11
+			11:leaf=-0.13732706
+			12:[Memory_ParcelCount<24] yes=13,no=14,missing=13
+				13:[Memory_SharedClean<79280] yes=15,no=16,missing=15
+					15:leaf=0.150619909
+					16:leaf=-0.122695968
+				14:[Memory_Views<30] yes=17,no=18,missing=17
+					17:[API_FileIO_libcore.io.IoBridge_open<9] yes=19,no=20,missing=19
+						19:leaf=-0.00743393414
+						20:leaf=0.142650306
+					18:[Network_TotalTransmittedBytes<63082] yes=21,no=22,missing=21
+						21:leaf=0.407075644
+						22:leaf=-0
+		6:leaf=-0.152839124
+booster[38]:
+0:[Memory_SharedDirty<11290] yes=1,no=2,missing=1
+	1:leaf=-0.235664785
+	2:[API_Network_java.net.URL_openConnection<3] yes=3,no=4,missing=3
+		3:[Memory_PrivateDirty<24080] yes=5,no=6,missing=5
+			5:[Memory_HeapAlloc<4788] yes=7,no=8,missing=7
+				7:leaf=-0.0949875861
+				8:leaf=0.367022723
+			6:leaf=-0.213721842
+		4:leaf=0.471402407
+booster[39]:
+0:[API_FileIO_android.content.ContextWrapper_deleteFile<7] yes=1,no=2,missing=1
+	1:[API_Database_android.database.sqlite.SQLiteDatabase_update<1] yes=3,no=4,missing=3
+		3:[Memory_PssClean<38270] yes=7,no=8,missing=7
+			7:leaf=-0.239648461
+			8:leaf=-0
+		4:leaf=0.0366617478
+	2:[Logcat_verbose<2015] yes=5,no=6,missing=5
+		5:leaf=0.333630502
+		6:leaf=-0.00237374916
+booster[40]:
+0:[API_Base64_android.util.Base64_decode<3] yes=1,no=2,missing=1
+	1:leaf=-0.23668994
+	2:[Memory_ParcelMemory<5] yes=3,no=4,missing=3
+		3:[Logcat_error<112] yes=5,no=6,missing=5
+			5:leaf=-0
+			6:leaf=0.276334971
+		4:leaf=-0.178025275
+booster[41]:
+0:[Memory_ParcelMemory<4] yes=1,no=2,missing=1
+	1:[Memory_HeapAlloc<10129] yes=3,no=4,missing=3
+		3:leaf=-0.165273264
+		4:[Logcat_debug<739] yes=7,no=8,missing=7
+			7:leaf=0.397047251
+			8:leaf=-0
+	2:[Network_TotalReceivedPackets<1219] yes=5,no=6,missing=5
+		5:leaf=-0.237054154
+		6:leaf=0.0606869534
+booster[42]:
+0:[API_IPC_android.content.ContextWrapper_sendBroadcast<27] yes=1,no=2,missing=1
+	1:[Memory_ParcelCount<8] yes=3,no=4,missing=3
+		3:leaf=0.039348539
+		4:leaf=-0.24060829
+	2:leaf=0.272839576
+booster[43]:
+0:[API_DeviceInfo_android.telephony.TelephonyManager_getNetworkOperator<7] yes=1,no=2,missing=1
+	1:leaf=-0.2392295
+	2:[API_DexClassLoader_dalvik.system.BaseDexClassLoader_findResource<1] yes=3,no=4,missing=3
+		3:leaf=0.274968505
+		4:leaf=-0.106087632
+booster[44]:
+0:[API_Database_android.database.sqlite.SQLiteDatabase_rawQuery<4] yes=1,no=2,missing=1
+	1:[API_Binder_android.app.ActivityThread_handleReceiver<2] yes=3,no=4,missing=3
+		3:[Memory_SharedDirty<11818] yes=7,no=8,missing=7
+			7:[Memory_PrivateDirty<80116] yes=15,no=16,missing=15
+				15:[Logcat_debug<4483] yes=25,no=26,missing=25
+					25:leaf=-0.254575819
+					26:leaf=-0
+				16:[Memory_PrivateDirty<86670] yes=27,no=28,missing=27
+					27:leaf=0.172439918
+					28:leaf=-0.0156892631
+			8:[API_DeviceData_android.os.SystemProperties_get<22] yes=17,no=18,missing=17
+				17:[Logcat_warning<1650] yes=29,no=30,missing=29
+					29:[Logcat_verbose<1679] yes=37,no=38,missing=37
+						37:leaf=-0.0164664406
+						38:leaf=0.0827779174
+					30:leaf=0.236400917
+				18:[Logcat_info<7923] yes=31,no=32,missing=31
+					31:leaf=-0.182096764
+					32:leaf=0.142406732
+		4:[API_DeviceData_android.content.ContentResolver_registerContentObserver<6] yes=9,no=10,missing=9
+			9:[API__sessions<17] yes=19,no=20,missing=19
+				19:[Logcat_error<5524] yes=33,no=34,missing=33
+					33:[Memory_PssClean<626] yes=39,no=40,missing=39
+						39:leaf=0.0392422229
+						40:leaf=0.315430194
+					34:leaf=-0.00354683306
+				20:[Memory_SharedClean<82972] yes=35,no=36,missing=35
+					35:leaf=-0
+					36:leaf=-0.0983794332
+			10:[Memory_SharedClean<95846] yes=21,no=22,missing=21
+				21:leaf=-0.135624409
+				22:leaf=0.0621205643
+	2:[Logcat_warning<121] yes=5,no=6,missing=5
+		5:[Logcat_debug<2892] yes=11,no=12,missing=11
+			11:leaf=0.211870849
+			12:leaf=-0.114824019
+		6:[API_Database_android.database.sqlite.SQLiteDatabase_update<1] yes=13,no=14,missing=13
+			13:[API_Crypto_javax.crypto.Cipher_doFinal<425] yes=23,no=24,missing=23
+				23:leaf=0.290716052
+				24:leaf=0.0130125498
+			14:leaf=-0
+booster[45]:
+0:[API_DexClassLoader_dalvik.system.DexFile_loadClass<16] yes=1,no=2,missing=1
+	1:[Memory_AppContexts<2] yes=3,no=4,missing=3
+		3:[Memory_HeapSize<7924] yes=7,no=8,missing=7
+			7:leaf=-0
+			8:leaf=0.235423893
+		4:leaf=-0.235094979
+	2:[Logcat_error<203] yes=5,no=6,missing=5
+		5:[Memory_SharedDirty<11206] yes=9,no=10,missing=9
+			9:[Memory_HeapAlloc<10674] yes=11,no=12,missing=11
+				11:leaf=0.20064041
+				12:leaf=-0
+			10:leaf=-0.0827670544
+		6:leaf=0.264579535
+booster[46]:
+0:[API_DeviceData_android.content.ContentResolver_registerContentObserver<5] yes=1,no=2,missing=1
+	1:[Memory_ParcelCount<43] yes=3,no=4,missing=3
+		3:[API_DeviceData_android.os.SystemProperties_get<72] yes=7,no=8,missing=7
+			7:leaf=-0.221820399
+			8:leaf=0.0591039322
+		4:leaf=0.0617717765
+	2:[API_Crypto-Hash_java.security.MessageDigest_update<1] yes=5,no=6,missing=5
+		5:[API_DeviceData_android.os.SystemProperties_get<23] yes=9,no=10,missing=9
+			9:[Logcat_debug<4180] yes=11,no=12,missing=11
+				11:leaf=0.278788328
+				12:leaf=0.0232577398
+			10:[Logcat_verbose<1289] yes=13,no=14,missing=13
+				13:leaf=-0.159772575
+				14:[API_IPC_android.content.ContextWrapper_startService<26] yes=15,no=16,missing=15
+					15:leaf=-0.000821616966
+					16:leaf=0.178655177
+		6:leaf=-0.158698887
+booster[47]:
+0:[Logcat_warning<787] yes=1,no=2,missing=1
+	1:[Logcat_total<11117] yes=3,no=4,missing=3
+		3:[Memory_SharedClean<92920] yes=7,no=8,missing=7
+			7:[Memory_PssClean<4036] yes=13,no=14,missing=13
+				13:leaf=0.0134553351
+				14:leaf=0.405517846
+			8:leaf=-0
+		4:[API_DeviceInfo_android.telephony.TelephonyManager_getSimOperatorName<6] yes=9,no=10,missing=9
+			9:leaf=-0.18192102
+			10:leaf=0.0324112549
+	2:[Logcat_total<10700] yes=5,no=6,missing=5
+		5:leaf=-0.207732037
+		6:[Logcat_debug<2322] yes=11,no=12,missing=11
+			11:[Memory_ParcelMemory<7] yes=15,no=16,missing=15
+				15:[API_IPC_android.content.ContextWrapper_startActivity<1] yes=17,no=18,missing=17
+					17:leaf=-0.161232159
+					18:leaf=0.0842715055
+				16:[Logcat_total<15847] yes=19,no=20,missing=19
+					19:[API_FileIO_android.content.ContextWrapper_openFileOutput<1] yes=21,no=22,missing=21
+						21:leaf=0.371507853
+						22:leaf=-0
+					20:leaf=-0.102589428
+			12:leaf=-0.169444978
+booster[48]:
+0:[Memory_HeapSize<26360] yes=1,no=2,missing=1
+	1:[API_IPC_android.content.ContextWrapper_registerReceiver<24] yes=3,no=4,missing=3
+		3:[Memory_AppContexts<9] yes=7,no=8,missing=7
+			7:[Memory_HeapAlloc<4730] yes=13,no=14,missing=13
+				13:leaf=-0
+				14:leaf=-0.232862636
+			8:leaf=-0
+		4:[API_DeviceData_android.os.SystemProperties_get<25] yes=9,no=10,missing=9
+			9:leaf=0.272515595
+			10:[Memory_PrivateDirty<32424] yes=15,no=16,missing=15
+				15:leaf=-0
+				16:leaf=-0.0977282822
+	2:[Battery_service<1] yes=5,no=6,missing=5
+		5:leaf=-0.147674292
+		6:[API_Binder_android.app.ActivityThread_handleReceiver<6] yes=11,no=12,missing=11
+			11:leaf=0.285758525
+			12:leaf=-0.101689249
+booster[49]:
+0:[Memory_SharedDirty<11290] yes=1,no=2,missing=1
+	1:leaf=-0.224579349
+	2:[API_DeviceInfo_android.telephony.TelephonyManager_getDeviceId<3] yes=3,no=4,missing=3
+		3:[Logcat_total<17893] yes=5,no=6,missing=5
+			5:leaf=-0.20287399
+			6:[Memory_HeapAlloc<4963] yes=7,no=8,missing=7
+				7:leaf=0.217475504
+				8:leaf=-0
+		4:leaf=0.399002314
+booster[50]:
+0:[API_FileIO_android.content.ContextWrapper_deleteFile<5] yes=1,no=2,missing=1
+	1:[API_Database_android.database.sqlite.SQLiteDatabase_openDatabase<18] yes=3,no=4,missing=3
+		3:leaf=-0.230810165
+		4:leaf=0.0460520461
+	2:[Logcat_warning<1948] yes=5,no=6,missing=5
+		5:leaf=-0.0203825403
+		6:[Logcat_verbose<1261] yes=7,no=8,missing=7
+			7:leaf=0.269780338
+			8:leaf=0.0136876358
+booster[51]:
+0:[Memory_ParcelMemory<5] yes=1,no=2,missing=1
+	1:[API_IPC_android.content.ContextWrapper_registerReceiver<7] yes=3,no=4,missing=3
+		3:leaf=-0.165206403
+		4:[Logcat_info<3914] yes=5,no=6,missing=5
+			5:leaf=0.241631672
+			6:leaf=-0.0177691728
+	2:leaf=-0.227911785
+booster[52]:
+0:[Memory_ParcelMemory<4] yes=1,no=2,missing=1
+	1:[API__sessions<14] yes=3,no=4,missing=3
+		3:leaf=-0.148150608
+		4:[Memory_HeapAlloc<10233] yes=7,no=8,missing=7
+			7:leaf=-0
+			8:leaf=0.340819716
+	2:[Logcat_total<7439] yes=5,no=6,missing=5
+		5:leaf=0.0609102994
+		6:leaf=-0.227587178
+booster[53]:
+0:[API_IPC_android.content.ContextWrapper_sendBroadcast<27] yes=1,no=2,missing=1
+	1:[Memory_PssTotal<31358] yes=3,no=4,missing=3
+		3:leaf=0.0364822447
+		4:leaf=-0.231849045
+	2:leaf=0.202175155
+booster[54]:
+0:[Network_TotalTransmittedBytes<96222] yes=1,no=2,missing=1
+	1:leaf=-0.231284946
+	2:leaf=0.0853918791
+booster[55]:
+0:[Memory_SharedDirty<10770] yes=1,no=2,missing=1
+	1:[Logcat_error<4054] yes=3,no=4,missing=3
+		3:[Memory_HeapFree<9795] yes=7,no=8,missing=7
+			7:[Logcat_error<109] yes=15,no=16,missing=15
+				15:leaf=0.00331580662
+				16:[Memory_PssClean<39172] yes=21,no=22,missing=21
+					21:[Logcat_error<3428] yes=25,no=26,missing=25
+						25:leaf=0.26041317
+						26:leaf=0.038010899
+					22:leaf=0.00925515778
+			8:[API_FileIO_android.content.ContextWrapper_openFileInput<2] yes=17,no=18,missing=17
+				17:leaf=-0.0892178565
+				18:leaf=0.107314453
+		4:[API_Binder_android.app.ActivityThread_handleReceiver<2] yes=9,no=10,missing=9
+			9:leaf=-0.0949994549
+			10:leaf=0.0753037483
+	2:[Memory_HeapFree<4179] yes=5,no=6,missing=5
+		5:[Memory_PrivateDirty<40796] yes=11,no=12,missing=11
+			11:[Memory_HeapFree<1587] yes=19,no=20,missing=19
+				19:leaf=-0.158228204
+				20:[Logcat_verbose<3299] yes=23,no=24,missing=23
+					23:[API_DeviceData_android.os.SystemProperties_get<55] yes=27,no=28,missing=27
+						27:leaf=0.209641665
+						28:leaf=-0
+					24:[Network_TotalReceivedBytes<84] yes=29,no=30,missing=29
+						29:leaf=-0.0540807433
+						30:leaf=0.128531754
+			12:leaf=-0.133367538
+		6:[API_FileIO_android.content.ContextWrapper_openFileInput<1] yes=13,no=14,missing=13
+			13:leaf=-0.220028922
+			14:leaf=0.0278302785
+booster[56]:
+0:[API_IPC_android.content.ContextWrapper_registerReceiver<1] yes=1,no=2,missing=1
+	1:[Memory_HeapSize<14982] yes=3,no=4,missing=3
+		3:[Memory_SharedDirty<11966] yes=5,no=6,missing=5
+			5:[Memory_PssTotal<67055] yes=7,no=8,missing=7
+				7:leaf=0.236798838
+				8:leaf=-0
+			6:[Memory_SharedDirty<12782] yes=9,no=10,missing=9
+				9:[Logcat_debug<2895] yes=11,no=12,missing=11
+					11:[Logcat_total<15187] yes=15,no=16,missing=15
+						15:leaf=-0
+						16:leaf=-0.167893931
+					12:leaf=0.014856346
+				10:[Memory_HeapSize<8927] yes=13,no=14,missing=13
+					13:leaf=0.0211584549
+					14:leaf=0.218839616
+		4:leaf=-0.10364376
+	2:leaf=-0.208593339
+booster[57]:
+0:[Memory_SharedClean<93314] yes=1,no=2,missing=1
+	1:[Memory_PrivateDirty<29430] yes=3,no=4,missing=3
+		3:leaf=-0.169486672
+		4:[API_Database_android.database.sqlite.SQLiteDatabase_getPath<2] yes=5,no=6,missing=5
+			5:[API_DexClassLoader_dalvik.system.DexFile_loadDex<1] yes=7,no=8,missing=7
+				7:[Logcat_verbose<403] yes=9,no=10,missing=9
+					9:leaf=-0
+					10:[Logcat_warning<407] yes=11,no=12,missing=11
+						11:leaf=0.00763783045
+						12:leaf=0.273509949
+				8:leaf=-0.0845994055
+			6:leaf=-0.126359597
+	2:leaf=-0.197432712
+booster[58]:
+0:[API_IPC_android.content.ContextWrapper_startService<14] yes=1,no=2,missing=1
+	1:[API_Command_java.lang.Runtime_exec<41] yes=3,no=4,missing=3
+		3:[API_DexClassLoader_dalvik.system.DexFile_loadClass<186] yes=7,no=8,missing=7
+			7:[Memory_PssClean<1730] yes=15,no=16,missing=15
+				15:leaf=0.0424189903
+				16:leaf=-0.223175079
+			8:[Memory_HeapSize<8089] yes=17,no=18,missing=17
+				17:leaf=0.172040835
+				18:leaf=-0
+		4:[Memory_SharedClean<92648] yes=9,no=10,missing=9
+			9:leaf=0.245223343
+			10:leaf=-0
+	2:[Logcat_total<13072] yes=5,no=6,missing=5
+		5:[Logcat_debug<1729] yes=11,no=12,missing=11
+			11:[Network_TotalReceivedPackets<38] yes=19,no=20,missing=19
+				19:[Memory_SharedClean<75944] yes=23,no=24,missing=23
+					23:leaf=0.0217077713
+					24:leaf=0.28937462
+				20:leaf=-0
+			12:[Memory_Views<102] yes=21,no=22,missing=21
+				21:leaf=-0.140608445
+				22:leaf=0.191556677
+		6:[Memory_HeapFree<3866] yes=13,no=14,missing=13
+			13:leaf=-0.148610935
+			14:leaf=0.051430352
+booster[59]:
+0:[Battery_service<1] yes=1,no=2,missing=1
+	1:leaf=-0.205477357
+	2:[API_Binder_android.app.ActivityThread_handleReceiver<2] yes=3,no=4,missing=3
+		3:[Memory_HeapSize<24930] yes=5,no=6,missing=5
+			5:[Memory_SharedClean<87098] yes=9,no=10,missing=9
+				9:[Memory_SharedDirty<10100] yes=11,no=12,missing=11
+					11:leaf=0.279393584
+					12:leaf=-0.00862521864
+				10:leaf=-0.157721043
+			6:leaf=0.264863163
+		4:[API_Database_android.database.sqlite.SQLiteDatabase_rawQueryWithFactory<78] yes=7,no=8,missing=7
+			7:leaf=-0.179860473
+			8:leaf=0.0935769156
+booster[60]:
+0:[Memory_SharedDirty<11290] yes=1,no=2,missing=1
+	1:leaf=-0.211102009
+	2:[API_DeviceInfo_android.telephony.TelephonyManager_getDeviceId<3] yes=3,no=4,missing=3
+		3:[Memory_HeapSize<7928] yes=5,no=6,missing=5
+			5:[Logcat_warning<1847] yes=7,no=8,missing=7
+				7:leaf=0.14813219
+				8:leaf=-0
+			6:leaf=-0.183326751
+		4:leaf=0.273356795
+booster[61]:
+0:[API_Binder_android.app.Activity_startActivity<13] yes=1,no=2,missing=1
+	1:leaf=-0.218364209
+	2:[API_Base64_android.util.Base64_decode<1] yes=3,no=4,missing=3
+		3:[Network_TotalTransmittedPackets<26] yes=5,no=6,missing=5
+			5:leaf=-0.0304686353
+			6:leaf=0.262693703
+		4:leaf=-0.100173615
+booster[62]:
+0:[API_Base64_android.util.Base64_decode<3] yes=1,no=2,missing=1
+	1:leaf=-0.216630176
+	2:[Memory_HeapFree<3108] yes=3,no=4,missing=3
+		3:leaf=0.198300719
+		4:leaf=-0.138795272
+booster[63]:
+0:[API_IPC_android.content.ContextWrapper_startService<1] yes=1,no=2,missing=1
+	1:[Logcat_debug<862] yes=3,no=4,missing=3
+		3:[Memory_HeapAlloc<10224] yes=5,no=6,missing=5
+			5:leaf=-0
+			6:leaf=0.251386464
+		4:[Logcat_verbose<5275] yes=7,no=8,missing=7
+			7:leaf=-0.1509047
+			8:leaf=-0
+	2:leaf=-0.212596864
+booster[64]:
+0:[API_DeviceInfo_android.telephony.TelephonyManager_getSimSerialNumber<33] yes=1,no=2,missing=1
+	1:[API__sessions<27] yes=3,no=4,missing=3
+		3:leaf=-0.221892416
+		4:leaf=0.0543134175
+	2:leaf=0.168211505
+booster[65]:
+0:[Network_TotalTransmittedBytes<96222] yes=1,no=2,missing=1
+	1:leaf=-0.220922306
+	2:leaf=0.0705870911
+booster[66]:
+0:[API_Base64_android.util.Base64_encode<3] yes=1,no=2,missing=1
+	1:[API_Binder_android.app.ActivityThread_handleReceiver<2] yes=3,no=4,missing=3
+		3:[Logcat_debug<2837] yes=7,no=8,missing=7
+			7:[API__sessions<1] yes=15,no=16,missing=15
+				15:leaf=0.104938872
+				16:[API_DeviceInfo_android.telephony.TelephonyManager_getNetworkCountryIso<2] yes=21,no=22,missing=21
+					21:[Logcat_total<9395] yes=27,no=28,missing=27
+						27:leaf=-0
+						28:leaf=-0.212557435
+					22:leaf=-0
+			8:[Logcat_error<2690] yes=17,no=18,missing=17
+				17:[API_IPC_android.content.ContextWrapper_startService<10] yes=23,no=24,missing=23
+					23:leaf=0.192297623
+					24:leaf=-0
+				18:leaf=-0.0370089896
+		4:[Memory_ParcelMemory<11] yes=9,no=10,missing=9
+			9:[Memory_HeapFree<1587] yes=19,no=20,missing=19
+				19:leaf=-0.0014681652
+				20:[API__sessions<17] yes=25,no=26,missing=25
+					25:leaf=0.228579238
+					26:leaf=-0.029752627
+			10:leaf=-0.109336145
+	2:[Logcat_warning<121] yes=5,no=6,missing=5
+		5:[Logcat_warning<115] yes=11,no=12,missing=11
+			11:leaf=0.142261744
+			12:leaf=-0.125261799
+		6:[API_Crypto_javax.crypto.Cipher_doFinal<280] yes=13,no=14,missing=13
+			13:leaf=0.236402631
+			14:leaf=-0
+booster[67]:
+0:[API_DexClassLoader_dalvik.system.DexFile_loadClass<16] yes=1,no=2,missing=1
+	1:[Memory_AppContexts<2] yes=3,no=4,missing=3
+		3:[Memory_HeapSize<7924] yes=7,no=8,missing=7
+			7:leaf=-0.00123142242
+			8:leaf=0.158338025
+		4:leaf=-0.215264037
+	2:[Logcat_error<203] yes=5,no=6,missing=5
+		5:[Logcat_verbose<3717] yes=9,no=10,missing=9
+			9:leaf=0.1362115
+			10:[Memory_SharedDirty<11206] yes=11,no=12,missing=11
+				11:leaf=-0
+				12:leaf=-0.148840755
+		6:leaf=0.226000562
+booster[68]:
+0:[Memory_SharedClean<93314] yes=1,no=2,missing=1
+	1:[Memory_PrivateDirty<29430] yes=3,no=4,missing=3
+		3:leaf=-0.150588974
+		4:[API_Database_android.database.sqlite.SQLiteDatabase_rawQueryWithFactory<1] yes=5,no=6,missing=5
+			5:[Logcat_debug<1566] yes=7,no=8,missing=7
+				7:[API_DeviceData_android.os.SystemProperties_get<25] yes=9,no=10,missing=9
+					9:[Logcat_debug<408] yes=13,no=14,missing=13
+						13:leaf=0.148952544
+						14:leaf=-0
+					10:leaf=-0.130500302
+				8:[Logcat_debug<4326] yes=11,no=12,missing=11
+					11:[Memory_HeapFree<2872] yes=15,no=16,missing=15
+						15:leaf=0.012817733
+						16:leaf=0.271894008
+					12:leaf=-0
+			6:leaf=-0.10206373
+	2:leaf=-0.179760098
+booster[69]:
+0:[Logcat_error<141] yes=1,no=2,missing=1
+	1:[Logcat_verbose<3776] yes=3,no=4,missing=3
+		3:[Logcat_info<5837] yes=7,no=8,missing=7
+			7:leaf=-0.107741892
+			8:leaf=0.124533452
+		4:leaf=0.235243201
+	2:[Network_TotalReceivedBytes<1223] yes=5,no=6,missing=5
+		5:[Memory_ParcelCount<22] yes=9,no=10,missing=9
+			9:[Memory_SharedDirty<12758] yes=13,no=14,missing=13
+				13:[Memory_PssTotal<46412] yes=17,no=18,missing=17
+					17:leaf=-0.178940058
+					18:leaf=-0
+				14:leaf=0.0555988066
+			10:[Memory_SharedClean<92902] yes=15,no=16,missing=15
+				15:[Memory_PrivateDirty<30196] yes=19,no=20,missing=19
+					19:leaf=-0
+					20:[Memory_PrivateClean<10562] yes=23,no=24,missing=23
+						23:leaf=0.29780966
+						24:leaf=0.0232173353
+				16:[Logcat_verbose<2542] yes=21,no=22,missing=21
+					21:leaf=-0
+					22:leaf=-0.099857308
+		6:[API_IPC_android.content.ContextWrapper_startActivity<3] yes=11,no=12,missing=11
+			11:leaf=-0.18374002
+			12:leaf=-0
+booster[70]:
+0:[Battery_service<1] yes=1,no=2,missing=1
+	1:leaf=-0.189997002
+	2:[API_DexClassLoader_dalvik.system.BaseDexClassLoader_findLibrary<1] yes=3,no=4,missing=3
+		3:[Battery_wakelock<3] yes=5,no=6,missing=5
+			5:[Network_TotalTransmittedBytes<120] yes=9,no=10,missing=9
+				9:leaf=0.131879032
+				10:leaf=-0.00250871642
+			6:leaf=-0.177866876
+		4:[API_Binder_android.app.ActivityThread_handleReceiver<6] yes=7,no=8,missing=7
+			7:[Memory_Views<30] yes=11,no=12,missing=11
+				11:[Memory_SharedClean<82828] yes=13,no=14,missing=13
+					13:leaf=0.13268213
+					14:leaf=-0.0580872819
+				12:leaf=0.254652232
+			8:leaf=-0.0821442679
+booster[71]:
+0:[API__sessions<10] yes=1,no=2,missing=1
+	1:leaf=-0.195773706
+	2:[Battery_service<1] yes=3,no=4,missing=3
+		3:[Logcat_warning<2490] yes=5,no=6,missing=5
+			5:[API__sessions<25] yes=7,no=8,missing=7
+				7:leaf=0.20590125
+				8:leaf=-0
+			6:leaf=-0.0224028248
+		4:leaf=-0.109047882
+booster[72]:
+0:[API_DeviceData_android.content.ContentResolver_registerContentObserver<9] yes=1,no=2,missing=1
+	1:leaf=-0.206312135
+	2:[API_DeviceData_android.os.SystemProperties_get<32] yes=3,no=4,missing=3
+		3:leaf=-0.112679303
+		4:[Memory_LocalBinders<47] yes=5,no=6,missing=5
+			5:leaf=0.24062708
+			6:leaf=-0
+booster[73]:
+0:[API_Base64_android.util.Base64_decode<3] yes=1,no=2,missing=1
+	1:leaf=-0.203580052
+	2:[Memory_HeapFree<3108] yes=3,no=4,missing=3
+		3:leaf=0.174311012
+		4:leaf=-0.111753173
+booster[74]:
+0:[Logcat_error<1608] yes=1,no=2,missing=1
+	1:[Logcat_debug<839] yes=3,no=4,missing=3
+		3:[Logcat_error<606] yes=5,no=6,missing=5
+			5:leaf=0.238164127
+			6:leaf=0.0159477871
+		4:[Logcat_total<15847] yes=7,no=8,missing=7
+			7:leaf=-0.14528361
+			8:leaf=-0
+	2:leaf=-0.198427677
+booster[75]:
+0:[API_IPC_android.content.ContextWrapper_sendBroadcast<27] yes=1,no=2,missing=1
+	1:[Memory_PssTotal<31555] yes=3,no=4,missing=3
+		3:leaf=0.0574025959
+		4:leaf=-0.21052216
+	2:leaf=0.141308978
+booster[76]:
+0:[Network_TotalTransmittedBytes<96222] yes=1,no=2,missing=1
+	1:leaf=-0.208827808
+	2:leaf=0.0575615577
+booster[77]:
+0:[API_Crypto_javax.crypto.Cipher_doFinal<1] yes=1,no=2,missing=1
+	1:[API__sessions<2] yes=3,no=4,missing=3
+		3:[Memory_PssClean<4664] yes=7,no=8,missing=7
+			7:[Memory_SharedClean<78034] yes=13,no=14,missing=13
+				13:[Memory_HeapSize<8102] yes=21,no=22,missing=21
+					21:leaf=0.130683273
+					22:leaf=-0.0857245922
+				14:leaf=0.215667829
+			8:[API_Crypto-Hash_java.security.MessageDigest_digest<47] yes=15,no=16,missing=15
+				15:leaf=0.0802906007
+				16:leaf=-0.119430356
+		4:[API_DexClassLoader_dalvik.system.BaseDexClassLoader_findLibrary<3] yes=9,no=10,missing=9
+			9:[Logcat_info<114] yes=17,no=18,missing=17
+				17:leaf=0.0515403114
+				18:[Logcat_warning<112] yes=23,no=24,missing=23
+					23:leaf=-0
+					24:leaf=-0.180956736
+			10:[Memory_PssClean<9760] yes=19,no=20,missing=19
+				19:leaf=0.177566886
+				20:[Memory_PssClean<37508] yes=25,no=26,missing=25
+					25:leaf=-0.100297913
+					26:leaf=-0
+	2:[API_IPC_android.content.ContextWrapper_registerReceiver<214] yes=5,no=6,missing=5
+		5:[API_IPC_android.content.ContextWrapper_sendBroadcast<4] yes=11,no=12,missing=11
+			11:leaf=0.226529375
+			12:leaf=-0
+		6:leaf=-0
+booster[78]:
+0:[API_DexClassLoader_dalvik.system.DexFile_loadClass<16] yes=1,no=2,missing=1
+	1:[Memory_HeapAlloc<4877] yes=3,no=4,missing=3
+		3:[Logcat_debug<1577] yes=7,no=8,missing=7
+			7:leaf=-0.0431683511
+			8:leaf=0.125299573
+		4:leaf=-0.19905287
+	2:[Logcat_verbose<3783] yes=5,no=6,missing=5
+		5:leaf=0.207325906
+		6:[Logcat_error<425] yes=9,no=10,missing=9
+			9:[Memory_SharedDirty<11206] yes=11,no=12,missing=11
+				11:leaf=-0
+				12:leaf=-0.123298213
+			10:leaf=0.106205262
+booster[79]:
+0:[API_Network_java.net.URL_openConnection<1] yes=1,no=2,missing=1
+	1:[Memory_Views<14] yes=3,no=4,missing=3
+		3:[Memory_SharedClean<73284] yes=5,no=6,missing=5
+			5:leaf=0.0311751608
+			6:leaf=-0.151113495
+		4:[API_DeviceData_android.os.SystemProperties_get<23] yes=7,no=8,missing=7
+			7:[Memory_SharedClean<92592] yes=9,no=10,missing=9
+				9:[Logcat_info<4634] yes=13,no=14,missing=13
+					13:leaf=0.237069353
+					14:leaf=-0
+				10:leaf=-0
+			8:[Logcat_verbose<1321] yes=11,no=12,missing=11
+				11:leaf=-0.119817287
+				12:leaf=0.0204274002
+	2:leaf=-0.160870492
+booster[80]:
+0:[Logcat_warning<787] yes=1,no=2,missing=1
+	1:[Logcat_total<11117] yes=3,no=4,missing=3
+		3:[Memory_SharedClean<91820] yes=7,no=8,missing=7
+			7:leaf=0.21390003
+			8:leaf=0.00743194111
+		4:[Logcat_error<1864] yes=9,no=10,missing=9
+			9:leaf=0.00463431282
+			10:leaf=-0.12303362
+	2:[Logcat_error<4153] yes=5,no=6,missing=5
+		5:[API_IPC_android.content.ContextWrapper_startService<25] yes=11,no=12,missing=11
+			11:[API_DexClassLoader_dalvik.system.DexFile_loadClass<165] yes=15,no=16,missing=15
+				15:leaf=-0.208621621
+				16:leaf=0.0772756636
+			12:[Memory_HeapFree<4276] yes=17,no=18,missing=17
+				17:leaf=-0.0301257595
+				18:leaf=0.152278841
+		6:[Memory_ViewRootImpl<1] yes=13,no=14,missing=13
+			13:leaf=0.188952416
+			14:leaf=-0
+booster[81]:
+0:[Battery_service<1] yes=1,no=2,missing=1
+	1:leaf=-0.172875017
+	2:[Memory_HeapSize<24930] yes=3,no=4,missing=3
+		3:[API_IPC_android.content.ContextWrapper_registerReceiver<24] yes=5,no=6,missing=5
+			5:[Memory_SharedClean<78994] yes=9,no=10,missing=9
+				9:leaf=-0
+				10:leaf=-0.160437196
+			6:leaf=0.0912047625
+		4:[API_Binder_android.app.ActivityThread_handleReceiver<2] yes=7,no=8,missing=7
+			7:leaf=0.209195495
+			8:leaf=-0
+booster[82]:
+0:[Memory_SharedDirty<11290] yes=1,no=2,missing=1
+	1:leaf=-0.180309728
+	2:[API_DeviceInfo_android.telephony.TelephonyManager_getDeviceId<3] yes=3,no=4,missing=3
+		3:[Memory_PrivateDirty<24080] yes=5,no=6,missing=5
+			5:leaf=0.0849125385
+			6:leaf=-0.166843191
+		4:leaf=0.15719673
+booster[83]:
+0:[API_Binder_android.app.Activity_startActivity<13] yes=1,no=2,missing=1
+	1:leaf=-0.192252889
+	2:[Network_TotalReceivedBytes<22110] yes=3,no=4,missing=3
+		3:[Memory_SharedDirty<10804] yes=5,no=6,missing=5
+			5:leaf=0.184932992
+			6:leaf=-0
+		4:leaf=-0.0664600581
+booster[84]:
+0:[Memory_ParcelMemory<5] yes=1,no=2,missing=1
+	1:[API_IPC_android.content.ContextWrapper_registerReceiver<23] yes=3,no=4,missing=3
+		3:[Memory_HeapFree<3095] yes=5,no=6,missing=5
+			5:leaf=-0
+			6:leaf=-0.113949999
+		4:leaf=0.154612303
+	2:leaf=-0.18985641
+booster[85]:
+0:[API_IPC_android.content.ContextWrapper_startService<1] yes=1,no=2,missing=1
+	1:[Memory_HeapAlloc<10129] yes=3,no=4,missing=3
+		3:leaf=-0.122340165
+		4:[Logcat_error<1576] yes=5,no=6,missing=5
+			5:leaf=0.198985279
+			6:leaf=-0
+	2:leaf=-0.183454335
+booster[86]:
+0:[API_DeviceInfo_android.telephony.TelephonyManager_getLine1Number<32] yes=1,no=2,missing=1
+	1:[Logcat_verbose<5796] yes=3,no=4,missing=3
+		3:leaf=-0.197082996
+		4:leaf=0.0612431765
+	2:leaf=0.112119816
+booster[87]:
+0:[Logcat_error<4614] yes=1,no=2,missing=1
+	1:leaf=-0.196845874
+	2:leaf=0.0718969777
+booster[88]:
+0:[API_Database_android.database.sqlite.SQLiteDatabase_rawQuery<4] yes=1,no=2,missing=1
+	1:[API_Binder_android.app.ActivityThread_handleReceiver<2] yes=3,no=4,missing=3
+		3:[Memory_SharedDirty<11818] yes=7,no=8,missing=7
+			7:[Memory_PrivateClean<4374] yes=13,no=14,missing=13
+				13:leaf=-0
+				14:leaf=-0.17699945
+			8:[Memory_HeapFree<2973] yes=15,no=16,missing=15
+				15:leaf=-0.0667860508
+				16:[Memory_PrivateClean<2686] yes=23,no=24,missing=23
+					23:leaf=-0.0219175853
+					24:leaf=0.154377103
+		4:[Logcat_error<2709] yes=9,no=10,missing=9
+			9:[API__sessions<12] yes=17,no=18,missing=17
+				17:[API_DeviceData_android.os.SystemProperties_get<28] yes=25,no=26,missing=25
+					25:leaf=-0
+					26:leaf=0.206695512
+				18:leaf=-0.014452423
+			10:[API_Network_java.net.URL_openConnection<1] yes=19,no=20,missing=19
+				19:leaf=-0.0770579726
+				20:leaf=0.0556808375
+	2:[Memory_HeapFree<8927] yes=5,no=6,missing=5
+		5:[Logcat_error<3428] yes=11,no=12,missing=11
+			11:leaf=0.201555908
+			12:[API_Network_java.net.URL_openConnection<24] yes=21,no=22,missing=21
+				21:leaf=-0.0320775583
+				22:leaf=0.100334071
+		6:leaf=-0
+booster[89]:
+0:[API_DexClassLoader_dalvik.system.DexFile_loadClass<16] yes=1,no=2,missing=1
+	1:[Memory_AppContexts<2] yes=3,no=4,missing=3
+		3:[Memory_HeapSize<8927] yes=7,no=8,missing=7
+			7:leaf=-0
+			8:leaf=0.121870443
+		4:leaf=-0.187869519
+	2:[Logcat_verbose<3783] yes=5,no=6,missing=5
+		5:leaf=0.188827097
+		6:[Logcat_error<425] yes=9,no=10,missing=9
+			9:[Logcat_verbose<6338] yes=11,no=12,missing=11
+				11:leaf=-0.0680516064
+				12:leaf=-0
+			10:leaf=0.0857034177
+booster[90]:
+0:[API_Network_java.net.URL_openConnection<1] yes=1,no=2,missing=1
+	1:[API_DeviceData_android.os.SystemProperties_get<22] yes=3,no=4,missing=3
+		3:[API_Binder_android.app.ContextImpl_registerReceiver<5] yes=5,no=6,missing=5
+			5:[API_DeviceData_android.content.ContentResolver_registerContentObserver<8] yes=9,no=10,missing=9
+				9:leaf=-0.0803818181
+				10:leaf=0.00345734879
+			6:[Memory_PssClean<8902] yes=11,no=12,missing=11
+				11:leaf=0.216305867
+				12:leaf=-0
+		4:[Logcat_info<548] yes=7,no=8,missing=7
+			7:leaf=0.0979827121
+			8:[Memory_HeapFree<2936] yes=13,no=14,missing=13
+				13:leaf=-0
+				14:leaf=-0.155230954
+	2:leaf=-0.14067407
+booster[91]:
+0:[Memory_HeapSize<7920] yes=1,no=2,missing=1
+	1:leaf=-0.112438828
+	2:[Logcat_debug<117] yes=3,no=4,missing=3
+		3:leaf=-0.0936644599
+		4:[Logcat_debug<2120] yes=5,no=6,missing=5
+			5:[Memory_Views<58] yes=7,no=8,missing=7
+				7:[Logcat_verbose<4431] yes=11,no=12,missing=11
+					11:[Logcat_verbose<761] yes=15,no=16,missing=15
+						15:leaf=-0
+						16:leaf=0.210713744
+					12:leaf=-0
+				8:leaf=-0.0905923396
+			6:[Memory_HeapAlloc<20162] yes=9,no=10,missing=9
+				9:leaf=-0.15970017
+				10:[Memory_SharedClean<92892] yes=13,no=14,missing=13
+					13:leaf=0.179586202
+					14:leaf=-0
+booster[92]:
+0:[Memory_SharedDirty<10882] yes=1,no=2,missing=1
+	1:[API_DeviceInfo_android.telephony.TelephonyManager_getSubscriberId<1] yes=3,no=4,missing=3
+		3:[Memory_ParcelMemory<18] yes=7,no=8,missing=7
+			7:[Memory_LocalBinders<16] yes=11,no=12,missing=11
+				11:[Logcat_error<714] yes=13,no=14,missing=13
+					13:leaf=0.0585924909
+					14:leaf=-0
+				12:leaf=0.181313917
+			8:leaf=-0
+		4:[API_Database_android.database.sqlite.SQLiteDatabase_execSQL<1] yes=9,no=10,missing=9
+			9:leaf=-0.0859460086
+			10:leaf=-0
+	2:[Logcat_info<4035] yes=5,no=6,missing=5
+		5:leaf=-0.164495334
+		6:leaf=-0
+booster[93]:
+0:[Memory_SharedDirty<11290] yes=1,no=2,missing=1
+	1:leaf=-0.162250966
+	2:[API_DeviceInfo_android.telephony.TelephonyManager_getDeviceId<3] yes=3,no=4,missing=3
+		3:[Logcat_total<17893] yes=5,no=6,missing=5
+			5:leaf=-0.155060902
+			6:leaf=0.070592232
+		4:leaf=0.122506775
+booster[94]:
+0:[API_DeviceData_android.content.ContentResolver_registerContentObserver<9] yes=1,no=2,missing=1
+	1:leaf=-0.177099973
+	2:[Memory_HeapAlloc<24335] yes=3,no=4,missing=3
+		3:[Memory_AppContexts<8] yes=5,no=6,missing=5
+			5:leaf=-0
+			6:leaf=0.135723665
+		4:leaf=-0.0188261569
+booster[95]:
+0:[API_Base64_android.util.Base64_decode<3] yes=1,no=2,missing=1
+	1:leaf=-0.175010264
+	2:[Memory_HeapFree<3108] yes=3,no=4,missing=3
+		3:leaf=0.139832854
+		4:leaf=-0.074500449
+booster[96]:
+0:[Logcat_error<1608] yes=1,no=2,missing=1
+	1:[Logcat_debug<839] yes=3,no=4,missing=3
+		3:leaf=0.139898658
+		4:leaf=-0.0816862583
+	2:leaf=-0.168555439
+booster[97]:
+0:[Logcat_info<3362] yes=1,no=2,missing=1
+	1:leaf=-0.145776644
+	2:[Logcat_verbose<3234] yes=3,no=4,missing=3
+		3:leaf=-0.0359518342
+		4:leaf=0.169918031
+booster[98]:
+0:[API_DeviceInfo_android.telephony.TelephonyManager_getNetworkOperatorName<13] yes=1,no=2,missing=1
+	1:leaf=-0.181375459
+	2:leaf=0.0633861423
+booster[99]:
+0:[API_Database_android.database.sqlite.SQLiteDatabase_rawQuery<4] yes=1,no=2,missing=1
+	1:[API__sessions<9] yes=3,no=4,missing=3
+		3:[Logcat_error<2709] yes=7,no=8,missing=7
+			7:[Logcat_error<450] yes=15,no=16,missing=15
+				15:leaf=-0.0453944542
+				16:[Memory_Views<38] yes=21,no=22,missing=21
+					21:leaf=0.181389824
+					22:leaf=-0
+			8:[Logcat_info<2930] yes=17,no=18,missing=17
+				17:leaf=-0.0827984735
+				18:leaf=0.0592958145
+		4:[API_IPC_android.content.ContextWrapper_startService<17] yes=9,no=10,missing=9
+			9:[Logcat_debug<2847] yes=19,no=20,missing=19
+				19:[Memory_PssClean<4580] yes=23,no=24,missing=23
+					23:leaf=-0.0992870852
+					24:leaf=-0
+				20:leaf=0.0898518935
+			10:leaf=-0.136023864
+	2:[Logcat_warning<121] yes=5,no=6,missing=5
+		5:[Logcat_debug<2892] yes=11,no=12,missing=11
+			11:leaf=0.0979140773
+			12:leaf=-0.0735432953
+		6:[API_DeviceData_android.content.ContentResolver_query<5] yes=13,no=14,missing=13
+			13:leaf=0.186492652
+			14:leaf=-0
+booster[100]:
+0:[Memory_HeapSize<14982] yes=1,no=2,missing=1
+	1:[API_DexClassLoader_dalvik.system.DexFile_loadClass<14] yes=3,no=4,missing=3
+		3:[Memory_AppContexts<2] yes=5,no=6,missing=5
+			5:[Logcat_error<4299] yes=9,no=10,missing=9
+				9:leaf=0.0972646698
+				10:leaf=-0
+			6:leaf=-0.121403411
+		4:[Memory_SharedDirty<12196] yes=7,no=8,missing=7
+			7:leaf=0.159573212
+			8:leaf=0.00274013984
+	2:leaf=-0.146302208
+booster[101]:
+0:[API_Network_java.net.URL_openConnection<1] yes=1,no=2,missing=1
+	1:[Logcat_debug<1566] yes=3,no=4,missing=3
+		3:[Logcat_error<2027] yes=5,no=6,missing=5
+			5:leaf=0.0229620785
+			6:[API_Binder_android.app.ActivityThread_handleReceiver<2] yes=9,no=10,missing=9
+				9:leaf=-0
+				10:leaf=-0.126435548
+		4:[Logcat_debug<4326] yes=7,no=8,missing=7
+			7:[Memory_ParcelMemory<12] yes=11,no=12,missing=11
+				11:[Memory_HeapSize<13231] yes=13,no=14,missing=13
+					13:leaf=-0.0225574728
+					14:leaf=0.0305541158
+				12:leaf=0.209587187
+			8:leaf=-0
+	2:leaf=-0.12257994
+booster[102]:
+0:[Memory_PrivateDirty<26518] yes=1,no=2,missing=1
+	1:[Logcat_info<1362] yes=3,no=4,missing=3
+		3:leaf=0.00796570349
+		4:leaf=-0.134625748
+	2:[Logcat_info<459] yes=5,no=6,missing=5
+		5:leaf=-0.110869348
+		6:[Memory_HeapAlloc<24607] yes=7,no=8,missing=7
+			7:[API_Crypto-Hash_java.security.MessageDigest_update<252] yes=9,no=10,missing=9
+				9:[Logcat_debug<273] yes=11,no=12,missing=11
+					11:leaf=-0
+					12:[Memory_PssClean<4646] yes=13,no=14,missing=13
+						13:leaf=0.00155790115
+						14:leaf=0.182189256
+				10:leaf=-0
+			8:leaf=-0.0331179015
+booster[103]:
+0:[Memory_SharedDirty<10538] yes=1,no=2,missing=1
+	1:[API_IPC_android.content.ContextWrapper_registerReceiver<12] yes=3,no=4,missing=3
+		3:leaf=-0
+		4:[API_Network_java.net.URL_openConnection<34] yes=7,no=8,missing=7
+			7:leaf=0.161422417
+			8:leaf=-0
+	2:[Memory_HeapSize<26787] yes=5,no=6,missing=5
+		5:leaf=-0.168298423
+		6:[Battery_wakelock<3] yes=9,no=10,missing=9
+			9:leaf=0.0949784145
+			10:leaf=-0.0132581294
+booster[104]:
+0:[API__sessions<10] yes=1,no=2,missing=1
+	1:leaf=-0.142392933
+	2:[Logcat_warning<2479] yes=3,no=4,missing=3
+		3:[Logcat_error<3093] yes=5,no=6,missing=5
+			5:leaf=-0
+			6:[Logcat_error<4322] yes=7,no=8,missing=7
+				7:leaf=0.107699089
+				8:leaf=-0
+		4:leaf=-0.0505273342
+booster[105]:
+0:[API_Binder_android.app.Activity_startActivity<13] yes=1,no=2,missing=1
+	1:leaf=-0.162074417
+	2:[Memory_LocalBinders<47] yes=3,no=4,missing=3
+		3:[API_DexClassLoader_dalvik.system.BaseDexClassLoader_findResource<1] yes=5,no=6,missing=5
+			5:leaf=-0
+			6:leaf=0.134565234
+		4:leaf=-0.0204446726
+booster[106]:
+0:[API__sessions<23] yes=1,no=2,missing=1
+	1:[Memory_HeapFree<3095] yes=3,no=4,missing=3
+		3:leaf=-0
+		4:leaf=-0.158881277
+	2:[API_IPC_android.content.ContextWrapper_startService<30] yes=5,no=6,missing=5
+		5:leaf=-0
+		6:leaf=0.0950263441
+booster[107]:
+0:[API_IPC_android.content.ContextWrapper_startService<1] yes=1,no=2,missing=1
+	1:[Memory_HeapAlloc<10129] yes=3,no=4,missing=3
+		3:leaf=-0.0925103799
+		4:[Memory_PssTotal<50591] yes=5,no=6,missing=5
+			5:leaf=0.150889903
+			6:leaf=-0
+	2:leaf=-0.151527226
+booster[108]:
+0:[API_IPC_android.content.ContextWrapper_sendBroadcast<27] yes=1,no=2,missing=1
+	1:[Memory_PssTotal<31605] yes=3,no=4,missing=3
+		3:leaf=0.0481143259
+		4:leaf=-0.170976803
+	2:leaf=0.0872263461
+booster[109]:
+0:[Logcat_error<4614] yes=1,no=2,missing=1
+	1:leaf=-0.166066498
+	2:leaf=0.0584707484
